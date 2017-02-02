@@ -1,10 +1,9 @@
 'use strict';
-angular.
-module('cllm').
+angular.module('cllm').
 component('cllm',{
   templateUrl: 'cllmembers/cll-members.template.html',
-  controller:[ function cllMembersController(){
-      /*this.order='age';
+  controller: function cllMembersController(){
+      this.order='age';
       this.search="";
      this.members=[{
     prenom:"zaineb",
@@ -24,8 +23,6 @@ component('cllm',{
       age: 25,
       poste : "membre"
 
-    }
-  ];*/
+    }]
 }
-]
 });
